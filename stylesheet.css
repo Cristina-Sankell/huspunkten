@@ -62,3 +62,49 @@ body, html {
     padding: 13px 32px;
     text-decoration: none;
 }
+
+/* 4. Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    margin: auto;
+    background-color: var(--four);
+    z-index: 999;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+/* logo/title settings */
+.brand-title {
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: bold;
+    margin-left: 2vw;
+}
+
+.navbar-links {
+    height: 100%;
+    background-color: var(--four);
+}
+
+.navbar-links ul {
+    display: flex;
+    margin-top: 2vh;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 1rem;
+    margin: 2vW;
+}
